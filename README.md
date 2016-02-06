@@ -17,7 +17,7 @@ And in your html
 </div>
 ```
 ## Options
-options object is optional, but let's go over their purpose, values you see are defaults
+options object is optional, values you see are defaults
 ```
 options = {
   barWidth: 4, // width in pixels of each column in the graph
@@ -31,4 +31,4 @@ Performant responsiveness is achieved by throttling requests to resize. However 
 ```
 window.addEventListener('resize', vis.resize, false);
 ```
-Note resize() is throttled internally, so need to implement that yourself.
+Note resize() is throttled internally, so no need to do it yourself.
